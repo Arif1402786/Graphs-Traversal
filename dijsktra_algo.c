@@ -21,7 +21,7 @@ int main()
     printf("Enter the source node: ");
     scanf("%d", &s);
     dijsktra(n, s, cost, dist);
-    printf("Shortest distance from %d node is:\n");
+    printf("Shortest distance from %d node is:\n",s);
     for (i = 1; i <= n; i++)
     {
         if (s != i)
